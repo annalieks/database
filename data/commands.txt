@@ -1,0 +1,25 @@
+insert-m username1 username1@gmai.com
+insert-m username2 username2@gmai.com
+insert-m username3 username3@gmai.com
+insert-m username4 username4@gmai.com
+insert-m username5 username5@gmai.com
+insert-s username1 SURPRISED
+insert-s username2 CRYING
+insert-s username2 DISAPPOINTED
+insert-s username3 HAPPY
+insert-s username3 SMILING
+insert-s username3 AMAZED
+ut-m
+ut-s
+del-m username1
+del-s username2 CRYING
+ut-m
+ut-s
+insert-m username4 username4@gmail.com
+insert-s username4 AMAZED
+ut-m
+ut-s
+update-m username4 email username44@gmail.com
+update-s username4 AMAZED type SURPRISED
+ut-m
+ut-s
